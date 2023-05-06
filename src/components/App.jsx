@@ -7,7 +7,7 @@ import Notification from './Notification/notification';
 
 const OPTIONS = ["good", "neutral", "bad"]
 class App extends Component {
-  static propTypes = {
+   propTypes = {
     good: PropTypes.number,
     neutral: PropTypes.number,
     bad: PropTypes.number,
@@ -70,3 +70,9 @@ return positivePercentage
 }
 
 export default App;
+
+ App.propTypes = {
+    good: PropTypes.number,
+    neutral: PropTypes.number,
+    bad: PropTypes.number,
+  }

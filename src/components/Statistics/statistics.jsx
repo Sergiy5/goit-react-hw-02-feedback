@@ -1,6 +1,6 @@
 
 
-const Statistics = ({title, good, neutral, bad, total, positivePercentage = 0 }) => {
+const Statistics = ({good, neutral, bad, total, positivePercentage = 0 }) => {
   return (<div>
       <h2>Statisctics</h2>
         
